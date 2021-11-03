@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #a6c5ca;
+    width: 25vw;
+}
+nav > h1 {
+    margin-right: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.navbutton {
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: #a6c5ca50;
+}
+.navbutton:hover {
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: #ffffff30;
+}
+
+.bodyclass {
+    background-color: 	#faeedf;
+    width: 75vw;
+    height: 100vh;
+}
