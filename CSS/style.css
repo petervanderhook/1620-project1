@@ -1,4 +1,7 @@
 
+* {
+    font-family: 'Nunito', sans-serif;
+}
 body {
     display: flex;
     flex-direction: row;
@@ -7,6 +10,8 @@ body {
 nav {
     align-items: center;
     display: flex;
+    position: sticky;
+    top: 0;
     flex-direction: column;
     height: 100vh;
     background-color: #a6c5ca;
@@ -28,9 +33,45 @@ nav > h1 {
     padding: .5rem;
     background-color: #ffffff30;
 }
+.gridbox {
+    display: grid;
+    grid-template-columns: 21vw, 21vw, 21vw;
+    grid-template-rows: 44.5vh, 44.5vh;
+    grid-template-areas:
+        "topleft topmiddle topright"
+        "bottomleft bottommiddle bottomright" ;
+    width: 68vw; /*30vw width for each block in grid*/
+    column-gap: 3vw;
+    row-gap: 5vw;
+    min-height: 95vh; /* 40vh heigh for each block in grid */
+    margin-top: 2vh;
+    margin-left: 4vw;
 
+}
 .bodyclass {
     background-color: 	#faeedf;
     width: 75vw;
+    padding: 0;
     height: 100vh;
+}
+
+.topleft {
+    grid-area: topleft;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.topright {
+    grid-area: topright;
+}
+.bottomleft {
+    grid-area: bottomleft;
+}
+.bottomright {
+    grid-area: bottomright;
+}
+.contactfont {
+    font-style: 'Nunito', sans-serif;
 }
