@@ -75,3 +75,34 @@ nav > h1 {
 .contactfont {
     font-style: 'Nunito', sans-serif;
 }
+
+.contactsGrid {
+    margin: 5vw;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 9rem;
+    grid-template-areas: "contactgridbox contactgridbox contactgridbox";
+    gap: 5vw;
+
+}
+
+.contactsGrid > div {
+    background-color: #00000020;
+    padding: 2px;
+}
+
+.savecontactbutton {
+    margin: 0%;
+    border: 0px;
+    border-radius: 5%;
+    padding: 1rem;
+    background-color: darkcyan;
+}
+.closebutton {
+    margin: 0%;
+    border: 0px;
+    border-radius: 5%;
+    padding: 1rem;
+    background-color:rgb(223, 82, 82);
+}
+
