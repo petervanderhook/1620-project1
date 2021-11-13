@@ -15,19 +15,19 @@ nav {
     left: 0;
     flex-direction: column;
     height: 100vh;
-    background-color: #a6c5ca;
+    background-color: #9ccfd8;
     min-width: 25vw;
 }
 
 .navbutton {
     margin-top: 1rem;
     padding: .5rem;
-    background-color: #a6c5ca50;
+    background-color: #9ccfd850;
 }
 .navbutton:hover {
     margin-top: 1rem;
     padding: .5rem;
-    background-color: #ffffff30;
+    background-color: #23213630;
 }
 .gridbox {
     display: grid;
@@ -45,7 +45,7 @@ nav {
 
 }
 .bodyclass {
-    background-color: 	#faeedf;
+    background-color: 	#faf4ed;
     min-width: 75vw;
     padding: 0;
     height: 100vh;
@@ -74,7 +74,7 @@ nav {
 }
 
 .contactsGrid > div {
-    background-color: #00000020;
+    background-color: #23213620;
     padding: 2px;
 }
 
@@ -83,13 +83,13 @@ nav {
     border: 0px;
     border-radius: 5%;
     padding: 1rem;
-    background-color: darkcyan;
+    background-color: #56949f;
 }
 .closebutton {
     margin: 0%;
     border: 0px;
     border-radius: 5%;
     padding: 1rem;
-    background-color:rgb(223, 82, 82);
+    background-color:#d7827e;
 }
 
