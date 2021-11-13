@@ -12,15 +12,11 @@ nav {
     display: flex;
     position: sticky;
     top: 0;
+    left: 0;
     flex-direction: column;
     height: 100vh;
     background-color: #a6c5ca;
     width: 25vw;
-}
-nav > h1 {
-    margin-right: 10vh;
-    margin-top: 5vh;
-    margin-bottom: 3vh;
 }
 
 .navbutton {
@@ -50,7 +46,7 @@ nav > h1 {
 }
 .bodyclass {
     background-color: 	#faeedf;
-    width: 75vw;
+    min-width: 75vw;
     padding: 0;
     height: 100vh;
 }
