@@ -16,7 +16,7 @@ nav {
     flex-direction: column;
     height: 100vh;
     background-color: #a6c5ca;
-    width: 25vw;
+    min-width: 25vw;
 }
 
 .navbutton {
@@ -31,11 +31,11 @@ nav {
 }
 .gridbox {
     display: grid;
-    grid-template-columns: 21vw, 21vw, 21vw;
-    grid-template-rows: 44.5vh, 44.5vh;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
-        "topleft topmiddle topright"
-        "bottomleft bottommiddle bottomright" ;
+        "topleft topright"
+        "bottomleft bottomright" ;
     width: 68vw; /*30vw width for each block in grid*/
     column-gap: 3vw;
     row-gap: 5vw;
@@ -58,15 +58,6 @@ nav {
     flex-direction: column;
     
 
-}
-.topright {
-    grid-area: topright;
-}
-.bottomleft {
-    grid-area: bottomleft;
-}
-.bottomright {
-    grid-area: bottomright;
 }
 .contactfont {
     font-style: 'Nunito', sans-serif;
